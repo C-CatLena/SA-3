@@ -17,7 +17,7 @@ public class webservice {
 	
 	public void send_mail( String address,String htmlbody) {
         // 濡傛灉鏄櫎鏉窞region澶栫殑鍏跺畠region锛堝鏂板姞鍧°�佹境娲睷egion锛夛紝闇�瑕佸皢涓嬮潰鐨�"cn-hangzhou"鏇挎崲涓�"ap-southeast-1"銆佹垨"ap-southeast-2"銆�
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FrBGButKUKLbfWFQGcV", "C9ozmjon8fqQjPiAhZys50GZfcODDJ");
+        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "key", "key密码");
         // 濡傛灉鏄櫎鏉窞region澶栫殑鍏跺畠region锛堝鏂板姞鍧egion锛夛紝 闇�瑕佸仛濡備笅澶勭悊
         //try {
         //DefaultProfile.addEndpoint("dm.ap-southeast-1.aliyuncs.com", "ap-southeast-1", "Dm",  "dm.ap-southeast-1.aliyuncs.com");
@@ -59,7 +59,7 @@ public class webservice {
 	
 	public void BatchSendMail() {
         // 濡傛灉鏄櫎鏉窞region澶栫殑鍏跺畠region锛堝鏂板姞鍧°�佹境娲睷egion锛夛紝闇�瑕佸皢涓嬮潰鐨�"cn-hangzhou"鏇挎崲涓�"ap-southeast-1"銆佹垨"ap-southeast-2"銆�
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FrBGButKUKLbfWFQGcV", "C9ozmjon8fqQjPiAhZys50GZfcODDJ");
+        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "key", "key密码");
         // 濡傛灉鏄櫎鏉窞region澶栫殑鍏跺畠region锛堝鏂板姞鍧egion锛夛紝 闇�瑕佸仛濡備笅澶勭悊
         //try {
         //DefaultProfile.addEndpoint("dm.ap-southeast-1.aliyuncs.com", "ap-southeast-1", "Dm",  "dm.ap-southeast-1.aliyuncs.com");
