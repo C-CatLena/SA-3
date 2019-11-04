@@ -17,7 +17,7 @@ import com.aliyuncs.profile.IClientProfile;
 public class Service {
     //邮件地址为_url，内容为_payload
     public  static char sendEmail(String _url,String _sub,String _payload) {
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FrBGButKUKLbfWFQGcV", "C9ozmjon8fqQjPiAhZys50GZfcODDJ");
+        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "key", "keyscreat");
         IAcsClient client = new DefaultAcsClient(profile);
         SingleSendMailRequest request = new SingleSendMailRequest();
         try {
@@ -51,7 +51,7 @@ public class Service {
 
     //批量发送邮件
     public char sendEmailBatch(String _url,String _sub,String _payload) {
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FrBGButKUKLbfWFQGcV", "C9ozmjon8fqQjPiAhZys50GZfcODDJ");
+        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "keyID", "keyScreat");
         IAcsClient client = new DefaultAcsClient(profile);
         SingleSendMailRequest request = new SingleSendMailRequest();
         try {
